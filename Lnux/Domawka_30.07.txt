@@ -1,0 +1,17 @@
+   0 mkdir -p /tmp/hw3/newfile/lazutamaks && touch /tmp/hw3/newfile/lazutamaks/newfile.txt
+   1 date + '%F' > /tmp/hw3/newfile/lazutamaks/newfile.txt
+   2 date +'%F' > /tmp/hw3/newfile/lazutamaks/newfile.txt
+   3 echo "homework3" >> /tmp/hw3/newfile/lazutamaks/newfile.txt
+   4 df -h / | tail -1 | awk '{print $5}' >> /tmp/hw3/newfile/lazutamaks/newfile.txt
+   5 history | tail -5 >>/tmp/hw3/newfie/lazutamaks/newfile.txt
+   6 history | tail -5 >> /tmp/hw3/newfie/lazutamaks/newfile.txt
+   7 history | tail -5 >> /tmp/hw3/newfile/lazutamaks/newfile.txt
+   8 cat /tmp/hw3/newfile/lazutamaks/newfile.txt
+   9 cat /proc/cpuinfo | grep vendor /proc/cpuinfo >> /tmp/hw3/newfile/lazutamaks/newfile.txt
+  10 cat /proc/cpuinfo
+  11 cat /proc/cpuinfo | grep vendor /proc/cpuinfo >> /tmp/hw3/newfile/lazutamaks/newfile.txt
+  12 cat /tmp/hw3/newfile/lazutamaks/newfile.txt
+  13 export_file > history_30_07
+  14 export_file history > history_30_07.txt
+  15 export_file.history > history_30_07.txt
+  16 history > /tmp/history.txt
